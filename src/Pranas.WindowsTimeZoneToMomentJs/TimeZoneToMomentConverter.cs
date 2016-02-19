@@ -1,4 +1,4 @@
-﻿// Copyright © ScreenshotMonitor 2015
+// Copyright © ScreenshotMonitor 2015
 // http://screenshotmonitor.com/
 // 
 // This file is subject to the terms and conditions defined in
@@ -7,13 +7,13 @@ using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web.Script.Serialization;
+using System.Web.Script.Serialization; 
 
 namespace Pranas.WindowsTimeZoneToMomentJs
 {
     /// <summary>
     ///     Tool to generates JavaScript that adds MomentJs timezone into moment.tz store.
-    ///     As per http://momentjs.com/timezone/docs/
+    ///     As per the http://momentjs.com/timezone/docs/
     /// </summary>
     public static class TimeZoneToMomentConverter
     {
